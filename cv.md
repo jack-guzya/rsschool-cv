@@ -7,7 +7,7 @@
 * jack199479@gmail.com
 
 #### Summary:
-
+I like to participate in various projects. My goal is a continuous improvement of my skills and knowledges which will help me in creating good products in the future.
 
 #### Skills:
 * HTML/CSS
