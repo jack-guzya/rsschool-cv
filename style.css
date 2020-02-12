@@ -1,0 +1,136 @@
+/* Блочная модель */
+body {
+  margin: 0;
+}
+
+header {
+  display: block;
+  width: 960px;
+  height: 300px;
+  margin: 0 auto;
+  border: 0px;
+}
+
+section {
+  display: block;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.summary,
+.contacts,
+.skills,
+.experience,
+.education {
+  display: block;
+  height: 150px;
+  padding: 60px 30px;
+  transition: all 0.8s;
+}
+
+.skills {
+  padding-bottom: 180px;
+}
+
+.skills-default {
+  margin: 5px auto 10px auto;
+  width: 400px;
+  height: 20px;
+}
+
+.skills-html {
+  margin: 0 auto 0 0;
+  width: 70%;
+  height: 20px;
+}
+
+.skills-css {
+  margin: 0 auto 0 0;
+  width: 60%;
+  height: 20px;
+}
+
+.skills-js {
+  margin: 0 auto 0 0;
+  width: 30%;
+  height: 20px;
+}
+
+/* Типографика */
+body {
+  font: 300 16px/22px "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  color: rgb(66, 66, 66);
+}
+
+header,
+section {
+  text-align: center;
+}
+
+.contacts,
+.summary,
+.experience,
+.education {
+  line-height: 30px;
+  font-size: 18px;
+}
+
+h1 {
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+h2 {
+  text-decoration-line: underline;
+  font-weight: 300;
+}
+
+/* Оформление */
+
+.contacts:hover,
+.summary:hover,
+.skills:hover,
+.experience:hover,
+.education:hover {
+  background-color: rgba(89, 144, 146, 0.486);
+}
+
+header {
+  background: linear-gradient(#408678e3, #fff);
+  padding-top: 150px;
+}
+
+.name {
+  padding-top: 30px;
+}
+
+.avatar {
+  width: 150px;
+  border: 1px solid rgba(1, 15, 12, 0.295);
+  border-radius: 50%;
+}
+
+.contacts ul,
+.skills ul,
+.education ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.summary,
+.experience {
+  background-color: rgb(214, 231, 231);
+}
+
+.skills-default {
+  background-color: rgba(169, 169, 169, 0.596);
+  border: 2px solid rgba(0, 0, 0, 0.425);
+}
+
+.skills-html,
+.skills-css,
+.skills-js {
+  background-color: rgba(60, 143, 136, 0.671);
+  vertical-align: center;
+}
